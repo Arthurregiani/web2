@@ -1,0 +1,72 @@
+body, html {
+    margin: 0; /* Remover margens padrão do corpo da página */
+    height: 100vh; /* 100% da altura da tela */
+    overflow: hidden; /* Impedir a barra de rolagem vertical */
+  }
+  
+  /*header----------------------------------------*/
+  
+  mat-toolbar {
+    background-color: #323f7a;
+    color: white;
+    position: relative;
+  }
+  
+  mat-icon {
+    color: white;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .example-icon {
+    margin: 10px;
+  }
+  /*header----------------------------------------*/
+
+  
+.card {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 20%), 0 8px 16px rgb(0 0 0 / 20%);
+    border-radius: 15px;
+    background-color: rgb(219, 219, 219);
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    width: 50%;
+  }
+  .user-text {
+    padding: auto;
+    flex: 1;
+  }
+  
+  .user-image img {
+    padding: 10px;
+    max-width: 40px;
+    height: auto;
+    border-radius: 100%;
+  }
+  
+  .review-conteiner {
+    display: flex;
+    width: 100%;
+  }
+  
+  .book-image img {
+    padding: 20px;
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .card-content {
+    position: relative;
+    padding: 20px;
+  }
+  
