@@ -1,0 +1,21 @@
+
+      <form>
+        <mat-form-field>
+          <input matInput placeholder="Título" [(ngModel)]="titulo">
+        </mat-form-field>
+      
+        <mat-form-field>
+          <textarea matInput placeholder="Review" [(ngModel)]="review"></textarea>
+        </mat-form-field>
+
+
+        <label class="file-input-label">
+          Escolha a capa do livro:
+          <input type="file" (change)="onFileSelected($event)" accept="image/*" />
+        </label>
+
+      
+        <button class="enviar" (click)="submitReview()">Enviar Review</button>
+        
+    </form>
+    

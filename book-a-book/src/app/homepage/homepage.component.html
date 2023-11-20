@@ -1,37 +1,46 @@
+<body>
 
 <header>
-    <mat-toolbar >
-        <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-            <mat-icon>menu</mat-icon>
-        </button>
-        <span class="spanbook">BookABook</span>
-     </mat-toolbar>
+  <mat-toolbar>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span class="spanbook">BookABook</span>
+  </mat-toolbar>
 </header>
 
+
+<div class="add-review">
+  <button class="review" (click)="openReviewForm()">Adicionar review</button>
+</div>
+
 <div class="card">
-    <div class="user">
-      <div class="user-image">
-        <img
-          src="http://dashboard.olucaro.com/olucarodashboard/assets/profiles/user_male_portrait.png"
-          alt=""
-        />
-      </div>
-  
-      <div class="user-text"><p>&#64;User aqui</p></div>
+
+  <div class="user">
+    <div class="user-image">
+      <img src="http://dashboard.olucaro.com/olucarodashboard/assets/profiles/user_male_portrait.png" alt="">
     </div>
-  
-    <div class="review-conteiner">
-      <div class="book-image">
-        <img
-          :src="https://th.bing.com/th/id/R.9d09739ab1692a2162106f77576a8009?rik=KjgeacK1WxLf6Q&pid=ImgRaw&r=0"
-          alt="book.title"
-        />
-      </div>
-      <div class="card-content">
-        <h1>Título do livro aqui.</h1>
-        <p>Review do livro aqui...</p>
-        
-      </div>
-    </div>
+
+    <div class="user-text"><p>&#64;Nickname</p></div>
   </div>
-  
+
+  <div class="review-container">
+
+    <div class="book-image">
+      <img :src="https://th.bing.com/th/id/R.9d09739ab1692a2162106f77576a8009?rik=KjgeacK1WxLf6Q&pid=ImgRaw&r=0" alt="book.title">
+    </div>
+
+    <div class="card-content">
+      <h1>Título do livro aqui.</h1>
+      <p>Review do livro aqui...</p>
+    </div>
+
+  </div>
+
+</div>
+    
+
+</body>
+
+
+
