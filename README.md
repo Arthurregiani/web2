@@ -1,2 +1,5 @@
-modificações a serem feitas: logo no header e mudar imagens
-prototipo 1
+Modificações a serem feitas: adicionar rating-module
+
+pagina de login: http://localhost:4200/login
+pagina de cadastro: http://localhost:4200/cadastro
+pagina principal: http://localhost:4200/homepage
