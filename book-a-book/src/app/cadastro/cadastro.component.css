@@ -12,16 +12,15 @@ body, html {
     position: relative;
   }
   
-  mat-icon {
-    color: white;
-  }
-  
-  .example-spacer {
-    flex: 1 1 auto;
-  }
-  
-  .example-icon {
+  .imagem-book {
+    width: 45px; 
+    height: 45px; 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 10px;
+    background-image: url('../book.png'); 
+  
   }
   
   /*header----------------------------------------*/

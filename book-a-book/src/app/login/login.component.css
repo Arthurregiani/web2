@@ -12,17 +12,6 @@ mat-toolbar {
   position: relative;
 }
 
-mat-icon {
-  color: white;
-}
-
-.example-spacer {
-  flex: 1 1 auto;
-}
-
-.example-icon {
-  margin: 10px;
-}
 
 /*header----------------------------------------*/
 
@@ -35,6 +24,27 @@ mat-icon {
   margin-top: -50px; 
   text-align: center;
   font-family: 'Cambria Math', serif;
+}
+
+.imagem-book {
+  width: 45px; 
+  height: 45px; 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 10px;
+  background-image: url('../book.png'); 
+
+}
+
+.imagem-login {
+  width: 300px; /* ajuste conforme necessário */
+  height: 200px; /* ajuste conforme necessário */
+  background-size: cover; /* ou 'contain' dependendo do comportamento desejado */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('Logo.png'); 
+
 }
 
 .txtLogin{
@@ -176,18 +186,17 @@ mat-icon {
 
   /*footer------------------------------------*/
   footer {
-
-    height: 50px;
+    position: fixed;
+    bottom: 0;
     width: 100%;
+    height: 50px;
     font-weight: 200;
     font-size: small;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #323f7a ;
-    position: relative;
-    bottom: 0;
-    color: white; 
+    background-color: #323f7a;
+    color: white;
   }
   
   

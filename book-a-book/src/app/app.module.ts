@@ -19,14 +19,14 @@ import { MatInputModule } from '@angular/material/input';
 
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     CadastroComponent,
     HomepageComponent,
-    ReviewFormComponent
+    ReviewFormComponent,
+
   ],
 
   imports: [
@@ -41,6 +41,7 @@ import { MatInputModule } from '@angular/material/input';
     FormsModule,
     MatFormFieldModule,
     MatInputModule,
+
   ],
 
   providers: [],
